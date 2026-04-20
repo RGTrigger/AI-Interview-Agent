@@ -1,0 +1,26 @@
+streamlit
+
+# LangChain (compatible + stable)
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langgraph
+
+# Vector DB
+chromadb
+
+# Embeddings
+sentence-transformers
+
+# Torch (CPU friendly for deployment)
+torch
+torchvision
+
+# Env
+python-dotenv
+
+# Fix for sqlite issues in Linux deployment (not available on Windows)
+pysqlite3-binary; sys_platform != "win32"
+
+protobuf==3.20.3
